@@ -1,24 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
 <head>
+	<meta charset="utf-8">
+	<title>Fluid's UCP</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
   <script type="module" src="./index.js"></script>
-
-  <style>
-    :root {
-      font-family: 'Roboto', system-ui, sans-serif;
-    }
-
-    label {
-      display: flex;
-      align-items: center;
-    }
-  </style>
 </head>
 <body>
-  <label>
-    Material 3
-    <md-checkbox checked></md-checkbox>
-  </label>
 
-  <md-outlined-button>Back</md-outlined-button>
-  <md-filled-button>Next</md-filled-button>
+<label for="favcolor">Select your favorite color:</label>
+<input type="color" id="favcolor" value="#ff0000">
 </body>
